@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coffee_table_001
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79,6 +83,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8098783710614166973}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1376505868081909894}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 79852234791894976}
   m_SourcePrefab: {fileID: 100100000, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
 --- !u!1 &7964752384917717934 stripped
 GameObject:
@@ -107,3 +117,43 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6137788791506704802, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
+--- !u!65 &-1376505868081909894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7964752384917717934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7180357, y: 0.2951992, z: 1.0340948}
+  m_Center: {x: 0.000000029802322, y: 0.14759938, z: -0.0088588}
+--- !u!114 &79852234791894976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7964752384917717934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf418d07ccc04f3793c9dc657e6b17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 8469160285118718587}
+  highlightMat: {fileID: 2100000, guid: e8c57f4612ba543348e57597e7760929, type: 2}
+--- !u!23 &8469160285118718587 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: ac89d7fea237f1645ad740a0eddafeea, type: 3}
+  m_PrefabInstance: {fileID: 7082215845119295231}
+  m_PrefabAsset: {fileID: 0}
